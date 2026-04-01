@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 3 - Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+    <header class="hero-screen">
+        <h1 class="hero-title">KELOMPOK 3</h1>
+        <div class="hero-content-box">
+            <div class="hero-text-card">
+                <p>Hi, selamat datang di website kami. Website ini dibuat untuk memenuhi tugas Mata Kuliah Praktikum Pemrograman Web dari Asisten Dosen mata kuliah tersebut. Tujuan tugas ini adalah agar kita dapat berkolaborasi dan mengeksplorasi materi yang diajarkan lebih dalam.</p>
+            </div>
+            <div class="hero-image-card">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=600" alt="Welcome Image">
+            </div>
+        </div>
+        <a href="#team-section" class="scroll-indicator">
+            <span>Scroll ke Bawah</span>
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+    </header>
+
+    <section id="team-section" class="slider-area">
+        <div class="section-title"><h2>ANGGOTA KELOMPOK</h2></div>
+        <div class="scroll-wrapper">
+            <div class="spacer"></div>
+            <div class="card-track">
+                
+                <div class="card-item">
+                    <div class="card-box">
+                        <div class="img-wrap"><img src="gambar-profil/gambar-athallah.jpeg" alt="Athallah"></div>
+                        <h3>Athallah Wildan Rafi</h3>
+                        <p>2417051004</p>
+                        <a href="#detail-athallah" class="btn-lihat">Lihat Profil</a>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-box">
+                        <div class="img-wrap"><img src="gambar-profil/gambar-faqih.jpeg" alt="Faqih"></div>
+                        <h3>Faqih Lakaisha</h3>
+                        <p>2417051037</p>
+                        <a href="#detail-faqih" class="btn-lihat">Lihat Profil</a>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-box">
+                        <div class="img-wrap"><img src="gambar-profil/gambar-khaila.jpeg" alt="Khaila"></div>
+                        <h3>Khaila Noverisya Nurdi</h3>
+                        <p>2417051022</p>
+                        <a href="#detail-khaila" class="btn-lihat">Lihat Profil</a>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-box">
+                        <div class="img-wrap"><img src="gambar-profil/gambar-naura.jpeg" alt="Naura"></div>
+                        <h3>Naura Azura Grahyta M</h3>
+                        <p>2417051005</p>
+                        <a href="#detail-naura" class="btn-lihat">Lihat Profil</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <h2>TERIMA KASIH</h2>
+        <p>Telah berkunjung ke halaman pengenalan Kelompok 3.</p>
+    </footer>
+
+    <svg style="width:0;height:0;position:absolute;" aria-hidden="true">
+      <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#fd5949" />
+        <stop offset="50%" stop-color="#d6249f" />
+        <stop offset="100%" stop-color="#285AEB" />
+      </linearGradient>
+    </svg>
+
+    <div class="modal-wrapper" id="detail-athallah">
+        <a href="#team-section" class="modal-bg"></a> 
+        <div class="modal-content">
+            <a href="#team-section" class="btn-close">&times;</a>
+            <div class="modal-body-top">
+                <div class="modal-img"><img src="gambar-profil/gambar-athallah.jpeg" alt="Athallah"></div>
+                <div class="modal-text">
+                    <h2>Athallah Wildan Rafi</h2>
+                    <div class="scroll-story">
+                        <p>Mahasiswa Ilmu Komputer Universitas Lampung angkatan 2024. Berperan aktif dalam pengembangan struktur kode utama dalam proyek kelompok ini.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body-bottom">
+                <h3>Get to Know Me Here</h3>
+                <div class="social-links">
+                    <a href="#" class="icon-fb"><svg viewBox="0 0 24 24" width="30" height="30" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#" class="icon-ig"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="url(#ig-grad)" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="#" class="icon-gh"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="#" class="icon-x"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="#" class="icon-yt"><svg viewBox="0 0 24 24" width="30" height="30" fill="#F00"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-wrapper" id="detail-faqih">
+        <a href="#team-section" class="modal-bg"></a>
+        <div class="modal-content">
+            <a href="#team-section" class="btn-close">&times;</a>
+            <div class="modal-body-top">
+                <div class="modal-img"><img src="gambar-profil/gambar-faqih.jpeg" alt="Faqih"></div>
+                <div class="modal-text">
+                    <h2>Faqih Lakaisha</h2>
+                    <div class="scroll-story">
+                        <p>Mahasiswa Ilmu Komputer Universitas Lampung angkatan 2024. Tidak Memiliki minat dalam pengembangan Full-stack dan kecerdasan buatan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body-bottom">
+                <h3>Get to Know Me Here</h3>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/Jokowi/?_rdc=1&_rdr#" class="icon-fb"><svg viewBox="0 0 24 24" width="30" height="30" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="https://www.instagram.com/faqihlakaisha_?igsh=d2p0bHJ1eDY2Y3Ix" class="icon-ig"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="url(#ig-grad)" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://github.com/LAKAISHAGBSCODING" class="icon-gh"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="https://x.com/jokowi" class="icon-x"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="https://www.youtube.com/@FaqihLakaishaPutra" class="icon-yt"><svg viewBox="0 0 24 24" width="30" height="30" fill="#F00"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-wrapper" id="detail-khaila">
+        <a href="#team-section" class="modal-bg"></a>
+        <div class="modal-content">
+            <a href="#team-section" class="btn-close">&times;</a>
+            <div class="modal-body-top">
+                <div class="modal-img"><img src="gambar-profil/gambar-khaila.jpeg" alt="Khaila"></div>
+                <div class="modal-text">
+                    <h2>Khaila Noverisya Nurdi</h2>
+                    <div class="scroll-story">
+                        <p>Mahasiswa Ilmu Komputer Universitas Lampung angkatan 2024. Berfokus pada aspek desain dan pengalaman pengguna (User Experience).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body-bottom">
+                <h3>Get to Know Me Here</h3>
+                <div class="social-links">
+                    <a href="#" class="icon-fb"><svg viewBox="0 0 24 24" width="30" height="30" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#" class="icon-ig"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="url(#ig-grad)" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="#" class="icon-gh"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="#" class="icon-x"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="#" class="icon-yt"><svg viewBox="0 0 24 24" width="30" height="30" fill="#F00"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-wrapper" id="detail-naura">
+        <a href="#team-section" class="modal-bg"></a>
+        <div class="modal-content">
+            <a href="#team-section" class="btn-close">&times;</a>
+            <div class="modal-body-top">
+                <div class="modal-img"><img src="gambar-profil/gambar-naura.jpeg" alt="Naura"></div>
+                <div class="modal-text">
+                    <h2>Naura Azura Grahyta M</h2>
+                    <div class="scroll-story">
+                        <p>Mahasiswa Ilmu Komputer Universitas Lampung angkatan 2024. Berkontribusi dalam memastikan kualitas konten dan fungsionalitas website.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body-bottom">
+                <h3>Get to Know Me Here</h3>
+                <div class="social-links">
+                    <a href="#" class="icon-fb"><svg viewBox="0 0 24 24" width="30" height="30" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#" class="icon-ig"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="url(#ig-grad)" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="#" class="icon-gh"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="#" class="icon-x"><svg viewBox="0 0 24 24" width="30" height="30" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="#" class="icon-yt"><svg viewBox="0 0 24 24" width="30" height="30" fill="#F00"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
